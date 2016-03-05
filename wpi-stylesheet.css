@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+}
+
+#wrapper {
+	margin: 1em auto;
+	width: 760px;
+	background-color: #f4e5c0;
+}
+#header {
+        background-image: url(images/wpi-banner.jpg);
+        width: 760px;
+        height: 263px;
+        border-radius:0.50em;
+}
+#header p.header {
+        padding: 0 5px;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+}
+#mainnav ul {
+         text-align: center;
+
+}
+#mainnav li
+{
+	display: inline;
+	padding: 0 8px;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-top: 1px solid;
+	border-top-right-radius:0.50em;
+        border-top-left-radius:0.50em;
+        background: #f4d486;
+ }
+#mainnav a {
+         text-decoration: none;
+         color: gray;
+}
+#mainnav a.awards, #mainnav a.vitae, #mainnav a.teaching, #mainnav a.learning, #mainnav a.service, #mainnav a.personal, #mainnav a.current {
+         font-size: large;
+         font-variant: small-caps;
+         font-weight: bold;
+         color: maroon;
+}
+#content {
+         float: left;
+         width: 72%;
+         margin: 0 1.5% 0 3px;
+         padding: 3px;
+         background: white;
+         border-radius:0.50em;
+}
+#meeting-list {
+
+}
+table.christmas {
+      float: left;
+      width: 45%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      margin: 0 1.5% 0 1.5%;
+      color: #4a4a4d;
+      font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+table.newyear {
+      float: left;
+      width: 47%;
+      border-collapse: collapse;
+      border-spacing: 0;
+     margin: 0 1.5% 0 1.5%;
+      color: #4a4a4d;
+      font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+table {
+      float: left;
+      border-collapse: collapse;
+      border-spacing: 0;
+      color: #4a4a4d;
+      font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+thead {
+      background: #395870;
+      background: linear-gradient(#49708f, #293f50);
+      color: #fff;
+      font-size: 11px;
+      text-transform: uppercase;
+}
+th, td {
+      padding: 10px 15px;
+      Vertical-aligh: middle;
+}
+th:first-child {
+      border-top-left-radius: 1em;
+}
+th:last-child {
+      border-top-right-radius: 1em;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+.meeting-day {
+        text-align: center;
+        font-weight: bold;
+        background: white;
+}
+.meeting-city {
+        text-align: left;
+        font-weight: bold;
+        background: white;
+}
+.small {
+        font-size:xx-small;
+}
+#meeting-format {
+        float: left;
+        width: 72%;
+        margin: 0 3px 0 1.5%;
+	background-color: #f4d486;
+	font-size: smaller;
+	padding: 3px;
+	border-radius:0.50em;
+	text-align: center;
+}
+#sidebar {
+	float: left;
+	width: 22.5%;
+	margin: 0 3px 0 1.5%;
+	background-color: #f4d486;
+	font-size: smaller;
+	padding: 3px;
+	border-radius:0.50em;
+	text-align: center;
+}
+#sidebar li {
+         margin: .75em 0;
+         font-size: smaller;
+         list-style-type: none;
+         text-align: left;
+}
+#sidebar td{
+         padding: 0 1em;
+         text-align: left;
+}
+#footer {
+        background-color: #f4e5c0;
+        margin:3px;
+        padding: 3px;
+        clear: both;
+        font-size: x-small;
+}
+strong {
+	color: white;
+	background: red;
+	border-radius: 1em;
+}
+a.meeting {
+          text-decoration: none;
+          color: chocolate;
+          }
+ul.meeting {
+         text-align: center;
+}
+li.meeting {
+          display: inline;
+	  padding: 0 8px;
+}
+dt.dl {
+      color: maroon;
+      font-variant: small-caps;
+      font-weight: bold;
+}
+h3    {
+      text-align:center;
+}
+h4   {
+     color: maroon;
+}
+p.centered {
+          text-align: center;
+          font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
